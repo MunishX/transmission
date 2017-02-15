@@ -6,8 +6,8 @@ Transmission install script (CentOS). (updated for transmision v 2.84)
 **Run the following commands to install on CentOS 6.x:**
 
 ```
-wget https://github.com/elijahpaul/install-transmission/raw/master/install-transmission.sh
+wget https://raw.githubusercontent.com/munishgaurav5/transmission/master/transmission.sh
 
-chmod u+x install-transmission.sh
+chmod u+x transmission.sh
 
-./install-transmission.sh
+./transmission.sh
