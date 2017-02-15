@@ -87,7 +87,7 @@ chkconfig --level 345 transmissiond on
 service transmissiond start
 service transmissiond stop
 sleep 3
-mkdir -p /home/$uname/.config/transmission
+
 cd /home/$uname/.config/transmission
 sed -i 's/^.*rpc-whitelist-enabled.*/"rpc-whitelist-enabled": false,/' settings.json
 sed -i 's/^.*rpc-authentication-required.*/"rpc-authentication-required": true,/' settings.json
